@@ -11,3 +11,5 @@ script:
 notifications:
   email: false
 
+addons:
+    postgresql : "9.3"
