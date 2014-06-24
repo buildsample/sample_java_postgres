@@ -2,7 +2,8 @@ language: java
 
 matix:
   include:
-  - jdk: openjdk7
+   - jdk: openjdk7
+
 script:
    - gradle clean build
    - gradle test
