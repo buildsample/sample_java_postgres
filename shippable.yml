@@ -2,8 +2,8 @@ language: java
 
 jdk:
    - oraclejdk8
-   - openjdk8
-   - openjdk7
+  # - openjdk8
+   #- openjdk7
 script:
    - gradle clean build
    - gradle test
@@ -12,3 +12,5 @@ script:
 notifications:
   email: false
 
+addons:
+ postgresql : "9.3"
