@@ -1,8 +1,7 @@
 language: java
 
-#matrix:
- #  include:
-  #   - jdk: openjdk7
+
+jdk: openjdk7
 
 script:
    - gradle clean build
@@ -13,4 +12,4 @@ notifications:
   email: false
 
 addons:
-    postgresql : "9.1"
+    postgresql : "9.2"
