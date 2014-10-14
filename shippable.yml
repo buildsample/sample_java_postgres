@@ -19,6 +19,8 @@ notifications:
 addons:
  postgresql : "9.3"
 
-
+after_script:
+  - cp README.md ./shippable
+  
 archive: true
 #cache: true 
