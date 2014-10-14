@@ -11,6 +11,7 @@ public class TestApp extends TestCase {
     // put common cleanup code in here
   }
 
+
   public void testInsertAndGetData() {
     String result = "";
     try {
@@ -21,7 +22,7 @@ public class TestApp extends TestCase {
       System.out.println("Error testing database");
       System.out.println(e.getMessage());
     } finally {
-      assertEquals("Seattle, WA", result);
+      assertEquals("Seattle, AWA", result);
     }
   } 
 }
