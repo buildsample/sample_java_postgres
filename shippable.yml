@@ -18,7 +18,7 @@ notifications:
   email: false
 
 addons:
- postgresql : "9.3"
+ postgresql : "9.2"
 
 
 after_script:
