@@ -1,6 +1,6 @@
 language: java
 
-build_image: shippable/minv2:beta 
+#build_image: shippable/minv2:beta 
 
 env:
  - secure: p15DjMB3X2wl3YpC/v4L5nhyOKnbfMY6uDEQdoZ1YrLr/i2VOHaaTQQ9SzOv40LqcngJBosDxsxH7+zNvakpftL7zvxstmcO3CUvD3iJyNtgf5qm3sNLeuHqW0rbRwqP13JH5b9y817NxDGM4uWebIK75s9nYhHDp8sDpqTPERgzY6r+8Mlf64gkriSG72DTPgx9S35WWEiIx+swFsoUZRIzW62GyTWkclW4B+tzYV8WKP9xNi+6lKZyOG4g1c14aOsQThBwwOLNBCYLjDNFXa2vLXHGk8UIxxlSop68PcEe16LOkl+Ikcya2CyiVWG2uf7RV75OwzFBWXZdJBc/MA==
