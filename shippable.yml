@@ -10,7 +10,7 @@ jdk:
    - openjdk7
    - openjdk6
 
-script:
+after_script:
    - echo $foo
    - gradle clean build
    - gradle test
@@ -24,7 +24,7 @@ addons:
  postgresql : "9.1"
 
 
-after_script:
+script:
   - cp README.md ./shippable
   
 archive: true
