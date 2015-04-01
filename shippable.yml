@@ -28,3 +28,8 @@ after_script:
   
 archive: true
 #cache: true 
+
+after_success:
+- echo "success"
+after_failure:
+- echo "failed"
