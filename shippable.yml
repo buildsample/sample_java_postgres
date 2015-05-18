@@ -1,6 +1,5 @@
 language: java
 
-
 #build_image: shippable/minv2:beta 
 
 env:
@@ -21,7 +20,7 @@ notifications:
   email: false
 
 addons:
- postgresql : "9.1"
+ postgresql : "9.3"
 
 
 after_script:
