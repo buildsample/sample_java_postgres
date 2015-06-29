@@ -25,7 +25,7 @@ addons:
 
 
 script:
- # - cp README.md ./shippable
+  - cp README.md ./shippable
   
 archive: true
 #cache: true 
