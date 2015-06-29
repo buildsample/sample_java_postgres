@@ -9,8 +9,8 @@ jdk:
    - oraclejdk7
    - openjdk7
    - openjdk6
-
-after_script:
+   
+script:
    - echo $foo
    - gradle clean build
    - gradle test
