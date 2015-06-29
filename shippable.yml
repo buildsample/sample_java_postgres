@@ -24,8 +24,8 @@ addons:
  postgresql : "9.1"
 
 
-script:
-  - cp README.md ./shippable
+#script:
+ # - cp README.md ./shippable
   
 archive: true
 #cache: true 
