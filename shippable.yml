@@ -10,7 +10,7 @@ script:
    - gradle cobertura
    
 notifications:
-  email: false
+  email: vidya@shippable.com
 
 addons:
     postgresql : "9.3"
