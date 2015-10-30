@@ -13,4 +13,4 @@ notifications:
   email: vidya@shippable.com
 
 addons:
-    postgresql : "9.3"
+    postgresql : "9.2"
